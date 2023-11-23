@@ -25,7 +25,7 @@ The main features are:
 * It has a chrome extension that connects via API and directly accesses the credentials of the web you are visiting.
 * API Password control on every different IP.
 
-This project has an extension for Google Chrome that you can download at https://github.com/eusonlito/Password-Manager-Chrome
+This project has an extension for Google Chrome that you can download at https://github.com/ericanderson29/Password-Manager-Chrome
 
 ### Requirements
 
@@ -51,7 +51,7 @@ php8.1 artisan key:generate
 2. Clone the repository.
 
 ```bash
-git clone https://github.com/eusonlito/Password-Manager.git
+git clone https://github.com/ericanderson29/Password-Manager.git
 ```
 
 3. Copy the `.env.example` file as `.env` and fill in the necessary variables.
@@ -117,7 +117,7 @@ Currently only for testing (no certificate support).
 1. Clone the repository
 
 ```bash
-git clone https://github.com/eusonlito/Password-Manager.git
+git clone https://github.com/ericanderson29/Password-Manager.git
 ```
 
 2. [OPTIONAL] Copy file `docker/.env.example` to `.env` and configure your own settings
@@ -214,38 +214,3 @@ User update:
 php artisan user:update {--id=} {--email=} {--name=} {--password=} {--certificate=} {--tfa_enabled=} {--admin=} {- readonly=} {--enabled=} {--teams=}
 ```
 
-### Help!
-
-I need help to improve english translations on this project.
-
-Default locale files are located in [`resources/lang/es`](resources/lang/es) and should be translated into [`resources/lang/en`](resources/lang/en).
-
-Also, I need to translate the [English Readme](readme.en.md).
-
-Thanks!
-
-### Screenshots
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019854-2d313657-29ec-48e8-bb8e-9802eb05858f.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019842-4ea81ac4-a8c3-405a-92d5-d174b5997b93.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019852-94612c82-03a3-4328-91d7-0c1c918056aa.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019851-1b6f845a-c5cf-4870-b056-d86c1b9d46e2.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019849-c63330dc-0c19-4ea6-90fe-c519c5b91091.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019846-f44500b9-302b-47e6-91df-afe8918c732d.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019845-03d88565-71e1-4cff-85a4-5c41042c72d6.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019834-9ac49dbc-fcab-4129-aeea-8ca0906c99db.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019829-8015cb2e-db1a-4100-8a0d-088e5e17411a.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019826-dc34723b-e446-4541-b14c-36d7b4b81e16.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019838-9bad81b4-1e9b-4591-a8c1-44193130a117.png)
-
-![Password-Manager](https://user-images.githubusercontent.com/644551/128019844-f74e3b26-57fa-48b9-8849-0410f8e0b99b.png)
